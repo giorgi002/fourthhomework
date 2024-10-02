@@ -39,3 +39,38 @@
 // console.log(car.getdiscription());
 
 
+// fourth task 👇
+// const shoppingCard = {
+//     products : [
+//         {id:1, name: 'Apple', price:2 }
+//     ],
+//     add: function({name,price}){
+//         const lastId = this.products[this.products.length-1]?.id+1 || 1
+//         console.log(lastId, "lastI");
+        
+//         const newProduct = {
+//             id: lastId,
+//             name,
+//             price
+//         }
+//         this.products.push(newProduct)
+//     },
+//     getAllProducts : function(){
+//         console.log(this.products);
+//     },
+//     deleteProduct: function(id){
+//         const index = this.products.findIndex(el => el.id == id)
+//         if(index === -1 ) return
+//         const deleted = this.products.splice(index,1);
+//         console.log(deleted);
+//     }
+// }
+// shoppingCard.add({name: "banana", price: 3});
+// shoppingCard.add({name: "pear", price: 4 });
+// shoppingCard.getAllProducts()
+// shoppingCard.deleteProduct(1);
+// shoppingCard.getAllProducts()
+
+
+
+
